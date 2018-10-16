@@ -37,5 +37,11 @@ try: #try block to reach site, write HTML to txt
         with open('offline.txt') as fo:
             items = re.findall(r'[a-zA-Z]'+reg, fo.read())
             print("{0} appears {1} times".format(item, len(items)))
+
+    input("Press any key to quit") #wait for readability
 except Exception as e: #if error, write and print error to file
     print(str(e))
+
+    '''
+	adding test comment for branch
+    '''
