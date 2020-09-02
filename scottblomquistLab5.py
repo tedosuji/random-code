@@ -43,5 +43,5 @@ except Exception as e: #if error, write and print error to file
     print(str(e))
 
     '''
-	testing git push on new windows laptop
+	testing one more time for push settings
     '''
